@@ -1,7 +1,10 @@
+import Container from "./components/Container";
+import Card from "./components/Card";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Container className={`h-screen flex justify-center items-center`}>
+        <Card  />
+      </Container>
   )
 }
