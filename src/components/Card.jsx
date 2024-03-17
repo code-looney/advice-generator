@@ -29,9 +29,9 @@ const Card = () => {
                 <Title className="text-sub tracking-widest uppercase text-[12px]">Advice #{id}</Title>
                 <Advice>"{advice}"</Advice>
                 <Container className="flex flex-col gap-7 justify-center items-center">
-                    <Icon className="rounded-full" iconURL="public/images/pattern-divider-mobile.svg" alt="" />
+                    <Icon className="rounded-full" iconURL="images/pattern-divider-mobile.svg" alt="" />
                     <Button onFetchDataClick={() => fetchData()} className="p-3 bg-btnColor rounded-full hover:shadow-custom transition ease-in-out">
-                        <Icon iconURL="public/images/icon-dice.svg" />
+                        <Icon iconURL="images/icon-dice.svg" />
                     </Button>
                 </Container>
             </Container>
