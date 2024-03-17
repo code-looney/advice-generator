@@ -4,7 +4,7 @@ const Button = (props) => {
   const {className, children} = props;
   
   return (
-    <button className={className}>{children}</button>
+    <button onClick={props.onFetchDataClick} className={className}>{children}</button>
   )
 }
 
